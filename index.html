@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Netflix</h1>
+        <!--Essa é a parte onde o usuário pode mudar o idioma do site-->
+        <label for="idioma">Idioma</label>
+        <select name="idioma" id="idioma">
+            <option value="pt-BR" selected>Português</option>
+            <option value="en">English</option>
+        </select>
+        <a href="#">Entrar</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Sucessos que você só encontra aqui</h2>
+            <p>A partir de R$20,90. Cancele quando quiser.</p>
+            <p>Quer assistir? Informe o seu email para criar ou reiniciar sua assinatura</p>
+            <form action="">
+                <label for="informe-email">Email</label>
+                <input type="email" name="email" id="informe-email" placeholder="Email" required>
+                <button type="submit">Vamos lá</button>   
+            </form>
+        </section>
+        <!--O aside serve para conteúdo complementar/secundário, a regra é tem haver com a página mas não faz parte do conteúdo principal, muito usado para anúncios por exemplo-->
+        <aside class="assinatura-acessivel">
+            <img src="#" alt=""> <!--Imagem da pipoca-->
+            <h2>A Netflix que você adora por apenas R$20,90.</h2>
+            <p>Aproveite nossa opção mais acessível, o plano com anúncios</p>
+            <a href="#" aria-label="saiba mais sobre o plano de assinatura com anúncios">saiba mais</a>
+        </aside>
+
+        <section class="em-alta">
+            <article>
+                <h2>Em alta</h2>
+                <ol>
+                    <li><button><img src="#" alt="O Mentalista"></button></li>
+                    <li><button><img src="#" alt="Meu nome é Farah"></button></li>
+                    <li><button><img src="#" alt="Profundezas"></button></li>
+                    <li><button><img src="#" alt="Monkey in the Bank"></button></li>
+                    <li><button><img src="#" alt="Como mágica"></button></li>
+                    <li><button><img src="#" alt="Nando Entre Dois Mundos"></button></li>
+                    <li><button><img src="#" alt="Para Smepre no Meu Coração"></button></li>
+                    <li><button><img src="#" alt="Todo Mundo Odeia o Chris"></button></li>
+                    <li><button><img src="#" alt="Máquina de Guerra"></button></li>
+                </ol>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
